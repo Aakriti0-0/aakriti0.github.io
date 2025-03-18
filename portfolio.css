@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(222, 222, 197);
+}
+
+header {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.carousel {
+    position: relative;
+    max-width: 100%;
+    width: 100 px;
+    height: 450 px; 
+    overflow: hidden;
+}
+
+.carousel img {
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: auto; 
+}
+
+nav {
+    background-color: #f0f0f0;
+    color: rgb(204, 115, 115); 
+    padding: 10px;
+    text-align: right;
+}
+
+nav a {
+    margin: 15px;
+    text-decoration: none;
+    color: white; 
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(91, 100, 97);
+    color: beige;
+    text-align: right;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
